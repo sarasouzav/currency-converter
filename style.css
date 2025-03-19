@@ -1,0 +1,91 @@
+@charset "utf8";
+
+* { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+
+/* ELEMENTOS DA INTERFACE */
+
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    
+    text-shadow: 3px 3px 0px black;
+}
+
+
+
+body {
+
+    
+   background-image: linear-gradient(180deg, rgba(136, 136, 88, 0.562), rgb(214, 212, 88));
+   background-repeat: no-repeat;
+   background-position: center center ;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+section {
+
+    background-color: rgb(255, 255, 255);
+
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+ 
+
+}
+
+form {
+    background-color: rgb(248, 246, 229);
+    padding: 15px;
+    border-radius: 10px;
+    text-align:  center;
+}
+
+
+form label {
+    display: block;
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: 100;
+    background-color: rgba(233, 213, 146, 0.397);
+    padding: 3px 7px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+   
+
+input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ input[type=submit] {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-radius: 10px ;
+    background-color: rgb(71, 168, 71);
+    color: #ffffff;
+}
+
+.link{
+    text-decoration: none;
+    color: #ccc;
+
+}
+
+
+
+  
